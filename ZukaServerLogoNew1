@@ -15,8 +15,8 @@ local image_1 = {
     ['src'] = 'https://cdn.discordapp.com/attachments/729090430100045925/1369097402161692773/ServerLogo.png?ex=681a9ed1&is=68194d51&hm=b71f6884a0657e61448a83faeb2f44d7529d3f81cfa74bb417360f49e30010dd&',
     ['sizeX'] = 128,
     ['sizeY'] = 128,
-    ['paddingX'] = 50, --use this to align it, currently 50 pixels from top right
-    ['paddingY'] = 50 --use this to align it, currently 50 pixels from top right
+    ['paddingX'] = 10, --use this to align it, currently 50 pixels from top right
+    ['paddingY'] = 10 --use this to align it, currently 50 pixels from top right
 }
 
 --this waits for the driver to not be in the setup screen, then starts the timer for the rule splash image
