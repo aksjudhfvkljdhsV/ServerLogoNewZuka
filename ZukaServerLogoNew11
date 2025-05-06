@@ -3,20 +3,20 @@ local timer = 5
 
 --image_0 is used as the rules splash screen
 local image_0 = {
-    ['src'] = 'https://cdn.discordapp.com/attachments/729090430100045925/1369097402161692773/ServerLogo.png?ex=681a9ed1&is=68194d51&hm=b71f6884a0657e61448a83faeb2f44d7529d3f81cfa74bb417360f49e30010dd&',
+    ['src'] = '',
     ['sizeX'] = 512, --size of your image in pixels
     ['sizeY'] = 512, --size of your image in pixels
     ['paddingX'] = screensize.x/2-512/2, --this makes it sit in the centre of the screen
-    ['paddingY'] = -125 --this moves it up 50 pixels
+    ['paddingY'] = -50 --this moves it up 50 pixels
 }
 
 --image_1 is used as the icon
 local image_1 = {
-    ['src'] = '',
+    ['src'] = 'https://cdn.discordapp.com/attachments/729090430100045925/1369336453863047188/Zukas-AC-Server-No-BG.png?ex=681b7d73&is=681a2bf3&hm=b8a39933d73ba0b6d0e3a3955a12f6e7b27f7d3643f49517e375d44e23cff226&',
     ['sizeX'] = 140,
     ['sizeY'] = 140,
     ['paddingX'] = 115, --use this to align it, currently 50 pixels from top right
-    ['paddingY'] = 10 --use this to align it, currently 50 pixels from top right
+    ['paddingY'] = 5 --use this to align it, currently 50 pixels from top right
 }
 
 --this waits for the driver to not be in the setup screen, then starts the timer for the rule splash image
