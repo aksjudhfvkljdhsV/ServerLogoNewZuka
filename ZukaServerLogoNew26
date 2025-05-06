@@ -15,7 +15,7 @@ local image_1 = {
     ['src'] = 'https://cdn.discordapp.com/attachments/729090430100045925/1369342761530167367/Zukas-AC-Server-No-BG.png?ex=681b8353&is=681a31d3&hm=3b9b8dd37339494d5e046196fb506d9f6be9f1ee6fdf403ab16c6dd3d633e7f7&',
     ['sizeX'] = 220,
     ['sizeY'] = 110,
-    ['paddingX'] = 115, --use this to align it, currently 50 pixels from top right
+    ['paddingX'] = 100, --use this to align it, currently 50 pixels from top right
     ['paddingY'] = 0 --use this to align it, currently 50 pixels from top right
 }
 
